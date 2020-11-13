@@ -1,10 +1,8 @@
 <template>
   <div class="my">
-    <header>我的</header>
-    <main>
-      哒哒
-    </main>
-    <footer />
+    <Header>我的</Header>
+    <main>哒哒</main>
+    <Footer />
   </div>
 </template>
 

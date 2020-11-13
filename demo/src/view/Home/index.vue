@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <header>消息</header>
+    <Header>消息</Header>
     <main>
       <dl v-for="(item,index) in list" :key="index" class="dls">
         <dt>
