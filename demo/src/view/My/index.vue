@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div class="my">
     <header>我的</header>
-    <main></main>
+    <main>
+      哒哒
+    </main>
     <footer />
   </div>
 </template>
@@ -18,5 +20,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.my {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.my main {
+  flex: 1;
+  overflow: scroll;
+}
 </style>

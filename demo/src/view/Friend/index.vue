@@ -1,7 +1,9 @@
 <template>
   <div class="friend">
     <header>好友</header>
-    <main></main>
+    <main>
+        滴滴
+    </main>
     <Footer />
   </div>
 </template>

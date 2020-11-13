@@ -1,6 +1,8 @@
 <template>
   <div class="header">
-    <slot />
+    <p>
+      <slot />
+    </p>
   </div>
 </template>
 
@@ -9,7 +11,7 @@ export default {};
 </script>
 
 <style scoped>
-.header {
+.header p {
   width: 100%;
   height: 40px;
   background-color: cornflowerblue;

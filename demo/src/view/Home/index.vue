@@ -2,7 +2,7 @@
   <div class="home">
     <header>消息</header>
     <main>
-      <dl v-for="(item,index) in list" :key="index">
+      <dl v-for="(item,index) in list" :key="index" class="dls">
         <dt>
           <img :src="item.img" alt />
         </dt>
@@ -55,5 +55,15 @@ export default {
 .home main {
   flex: 1;
   overflow: scroll;
+}
+.dls {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.dls dd {
+  margin-left: 10px;
 }
 </style>
