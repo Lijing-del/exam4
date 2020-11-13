@@ -2,6 +2,9 @@
   <div class="home">
     <Header>消息</Header>
     <main>
+      <p>
+        <input type="text" placeholder="搜索" />
+      </p>
       <dl v-for="(item,index) in list" :key="index" class="dls">
         <dt>
           <img :src="item.img" alt />
